@@ -34,3 +34,4 @@ C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drink
 C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Properties.Resources.resources
 C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.TutorialWindow.resources
 C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csproj.GenerateResource.Cache
+C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.TutorialWindow.resources

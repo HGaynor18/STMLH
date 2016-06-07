@@ -40,6 +40,10 @@
             this.VodkaStrengthLabel = new System.Windows.Forms.Label();
             this.VodkaStrengthPrice = new System.Windows.Forms.Label();
             this.TutorialButton = new System.Windows.Forms.Button();
+            this.FriendButton = new System.Windows.Forms.Button();
+            this.FriendCounter = new System.Windows.Forms.Label();
+            this.FriendPriceLabel = new System.Windows.Forms.Label();
+            this.FriendTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.VodkaPicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,7 +51,7 @@
             // 
             this.VodkaPicture.BackgroundImage = global::водка_Drinker.Properties.Resources.russian_vodka_beluga;
             this.VodkaPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.VodkaPicture.Location = new System.Drawing.Point(438, 170);
+            this.VodkaPicture.Location = new System.Drawing.Point(371, 170);
             this.VodkaPicture.Name = "VodkaPicture";
             this.VodkaPicture.Size = new System.Drawing.Size(140, 129);
             this.VodkaPicture.TabIndex = 0;
@@ -66,7 +70,7 @@
             // 
             // VodkaButton
             // 
-            this.VodkaButton.Location = new System.Drawing.Point(438, 305);
+            this.VodkaButton.Location = new System.Drawing.Point(371, 305);
             this.VodkaButton.Name = "VodkaButton";
             this.VodkaButton.Size = new System.Drawing.Size(140, 94);
             this.VodkaButton.TabIndex = 2;
@@ -76,7 +80,7 @@
             // 
             // ShopDistiller
             // 
-            this.ShopDistiller.Location = new System.Drawing.Point(845, 170);
+            this.ShopDistiller.Location = new System.Drawing.Point(732, 198);
             this.ShopDistiller.Name = "ShopDistiller";
             this.ShopDistiller.Size = new System.Drawing.Size(75, 23);
             this.ShopDistiller.TabIndex = 3;
@@ -92,7 +96,7 @@
             // DistillerCounterLabel
             // 
             this.DistillerCounterLabel.AutoSize = true;
-            this.DistillerCounterLabel.Location = new System.Drawing.Point(926, 175);
+            this.DistillerCounterLabel.Location = new System.Drawing.Point(813, 203);
             this.DistillerCounterLabel.Name = "DistillerCounterLabel";
             this.DistillerCounterLabel.Size = new System.Drawing.Size(57, 13);
             this.DistillerCounterLabel.TabIndex = 4;
@@ -101,7 +105,7 @@
             // DistillerPriceLabel
             // 
             this.DistillerPriceLabel.AutoSize = true;
-            this.DistillerPriceLabel.Location = new System.Drawing.Point(862, 202);
+            this.DistillerPriceLabel.Location = new System.Drawing.Point(749, 230);
             this.DistillerPriceLabel.Name = "DistillerPriceLabel";
             this.DistillerPriceLabel.Size = new System.Drawing.Size(49, 13);
             this.DistillerPriceLabel.TabIndex = 5;
@@ -109,7 +113,7 @@
             // 
             // VodkaStrength
             // 
-            this.VodkaStrength.Location = new System.Drawing.Point(837, 228);
+            this.VodkaStrength.Location = new System.Drawing.Point(724, 256);
             this.VodkaStrength.Name = "VodkaStrength";
             this.VodkaStrength.Size = new System.Drawing.Size(83, 23);
             this.VodkaStrength.TabIndex = 6;
@@ -120,7 +124,7 @@
             // VodkaStrengthLabel
             // 
             this.VodkaStrengthLabel.AutoSize = true;
-            this.VodkaStrengthLabel.Location = new System.Drawing.Point(926, 233);
+            this.VodkaStrengthLabel.Location = new System.Drawing.Point(813, 261);
             this.VodkaStrengthLabel.Name = "VodkaStrengthLabel";
             this.VodkaStrengthLabel.Size = new System.Drawing.Size(84, 13);
             this.VodkaStrengthLabel.TabIndex = 7;
@@ -129,7 +133,7 @@
             // VodkaStrengthPrice
             // 
             this.VodkaStrengthPrice.AutoSize = true;
-            this.VodkaStrengthPrice.Location = new System.Drawing.Point(862, 263);
+            this.VodkaStrengthPrice.Location = new System.Drawing.Point(749, 291);
             this.VodkaStrengthPrice.Name = "VodkaStrengthPrice";
             this.VodkaStrengthPrice.Size = new System.Drawing.Size(55, 13);
             this.VodkaStrengthPrice.TabIndex = 8;
@@ -137,7 +141,7 @@
             // 
             // TutorialButton
             // 
-            this.TutorialButton.Location = new System.Drawing.Point(12, 609);
+            this.TutorialButton.Location = new System.Drawing.Point(21, 468);
             this.TutorialButton.Name = "TutorialButton";
             this.TutorialButton.Size = new System.Drawing.Size(146, 60);
             this.TutorialButton.TabIndex = 9;
@@ -145,13 +149,49 @@
             this.TutorialButton.UseVisualStyleBackColor = true;
             this.TutorialButton.Click += new System.EventHandler(this.TutorialButton_Click);
             // 
+            // FriendButton
+            // 
+            this.FriendButton.Location = new System.Drawing.Point(723, 321);
+            this.FriendButton.Name = "FriendButton";
+            this.FriendButton.Size = new System.Drawing.Size(84, 23);
+            this.FriendButton.TabIndex = 10;
+            this.FriendButton.Text = "Друг (Friends)";
+            this.FriendButton.UseVisualStyleBackColor = true;
+            this.FriendButton.Click += new System.EventHandler(this.FriendButton_Click);
+            // 
+            // FriendCounter
+            // 
+            this.FriendCounter.AutoSize = true;
+            this.FriendCounter.Location = new System.Drawing.Point(813, 326);
+            this.FriendCounter.Name = "FriendCounter";
+            this.FriendCounter.Size = new System.Drawing.Size(53, 13);
+            this.FriendCounter.TabIndex = 11;
+            this.FriendCounter.Text = "Friends: 0";
+            // 
+            // FriendPriceLabel
+            // 
+            this.FriendPriceLabel.AutoSize = true;
+            this.FriendPriceLabel.Location = new System.Drawing.Point(749, 364);
+            this.FriendPriceLabel.Name = "FriendPriceLabel";
+            this.FriendPriceLabel.Size = new System.Drawing.Size(55, 13);
+            this.FriendPriceLabel.TabIndex = 12;
+            this.FriendPriceLabel.Text = "Price: 150";
+            // 
+            // FriendTimer
+            // 
+            this.FriendTimer.Interval = 1000;
+            this.FriendTimer.Tick += new System.EventHandler(this.FriendTimer_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::водка_Drinker.Properties.Resources.Shop_Window_for_Game;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.ClientSize = new System.Drawing.Size(931, 540);
+            this.Controls.Add(this.FriendPriceLabel);
+            this.Controls.Add(this.FriendCounter);
+            this.Controls.Add(this.FriendButton);
             this.Controls.Add(this.TutorialButton);
             this.Controls.Add(this.VodkaStrengthPrice);
             this.Controls.Add(this.VodkaStrengthLabel);
@@ -185,6 +225,10 @@
         private System.Windows.Forms.Label VodkaStrengthLabel;
         private System.Windows.Forms.Label VodkaStrengthPrice;
         private System.Windows.Forms.Button TutorialButton;
+        private System.Windows.Forms.Button FriendButton;
+        private System.Windows.Forms.Label FriendCounter;
+        private System.Windows.Forms.Label FriendPriceLabel;
+        private System.Windows.Forms.Timer FriendTimer;
     }
 }
 

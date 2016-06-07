@@ -13,6 +13,10 @@ namespace водка_Drinker
     public partial class Form1 : Form
     {
         int Vodkas;
+        int Friends;
+        int FriendPrice = 150;
+        int FriendPower = 10;
+        int FriendCount;
         int VodkasStrength = 1;
         int VodkaRating = 1;
         int DistillerStrength = 1;
@@ -34,7 +38,7 @@ namespace водка_Drinker
         {
             Vodkas = Vodkas + VodkasStrength;
             VodkaCounter.Text = "Vodkas: " + Vodkas;
-            if (Vodkas > 5000)
+            if (Vodkas > 10000)
             {
                 MessageBox.Show("Hello Ma Freind, You Make Very Vodka, I Am Putin, You Good Vodka, You Spetsnaz Vodka, You Win!");
             }
@@ -75,15 +79,17 @@ namespace водка_Drinker
         {
             if (Vodkas < VodkasStrengthPrice)
             {
-                MessageBox.Show("Sorry Ma Fren, You Have Not Got Enpugh Vodkas.");
+                MessageBox.Show("Sorry Ma Fren, You Have Not Got Enough Vodkas.");
 
             }
             if (Vodkas > VodkasStrengthPrice)
             {
+                Vodkas = Vodkas - VodkasStrengthPrice;
+                VodkaStrengthPrice.Text = "Price: " + VodkasStrengthPrice;
                 VodkasStrength = VodkasStrength * 2;
                 VodkaRating = VodkaRating + 1;
-                VodkaStrengthLabel.Text = "Vodka Rating: " + VodkaRating;
-                Vodkas = Vodkas - VodkasStrengthPrice;
+                VodkaStrengthLabel.Text = "Vodka Rating: " + VodkaRating;                              
+                VodkasStrengthPrice = VodkasStrengthPrice * 2;
             }
 
         }
@@ -92,6 +98,32 @@ namespace водка_Drinker
         {
             TutorialWindow t = new TutorialWindow();
             t.Show();
+        }
+
+        private void FriendButton_Click(object sender, EventArgs e)
+        {
+           if (Vodkas < FriendPrice)
+            {
+              MessageBox.Show("You want to be my friend?, not enough Vodka ma friend, bring me more.");            
+            }
+            if (Vodkas > FriendPrice)
+            {
+                FriendTimer.Start();
+                Vodkas = Vodkas - FriendPrice;
+                FriendCount = FriendCount + 1;
+                Friends = Friends * 2;
+                FriendPower = FriendPower * 2;
+                FriendPrice = FriendPrice * 2;
+                FriendPriceLabel.Text = "Price: " + FriendPrice;
+                FriendCounter.Text = "Friends: " + FriendCount;
+                
+                     }
+        }
+
+        private void FriendTimer_Tick(object sender, EventArgs e)
+        {
+            Vodkas = Vodkas + FriendPower;
+            
         }
     }
 }
