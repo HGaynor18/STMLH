@@ -13,9 +13,12 @@ namespace водка_Drinker
     public partial class Form1 : Form
     {
         int Vodkas;
-        int MakeStrength = 1;
+        int VodkasStrength = 1;
+        int VodkaRating = 1;
+        int DistillerStrength = 1;
         int Distillers = 0;
         int DistillerPrice = 50;
+        int VodkasStrengthPrice = 100;
         int DistillerSpeed = 2;
         public Form1()
         {
@@ -29,9 +32,9 @@ namespace водка_Drinker
 
         private void DrinkButton_Click(object sender, EventArgs e)
         {
-            Vodkas = Vodkas + 1;
+            Vodkas = Vodkas + VodkasStrength;
             VodkaCounter.Text = "Vodkas: " + Vodkas;
-            if (Vodkas == 5000)
+            if (Vodkas > 5000)
             {
                 MessageBox.Show("Hello Ma Freind, You Make Very Vodka, I Am Putin, You Good Vodka, You Spetsnaz Vodka, You Win");
             }
@@ -56,15 +59,25 @@ namespace водка_Drinker
                 Vodkas = Vodkas - DistillerPrice;
                 DistillerPrice = DistillerPrice * 2;
                 Distillers = Distillers + 1;
+                DistillerStrength = DistillerStrength * 2;
                 DistillerPriceLabel.Text = "Price: " + DistillerPrice;
             }
         }
 
         private void DistillerTimer_Tick(object sender, EventArgs e)
         {
-            Vodkas = Vodkas + Distillers;
+            Vodkas = Vodkas + DistillerStrength;
             VodkaCounter.Text = "Vodkas: " + Vodkas;
             DistillerCounterLabel.Text = "Distillers: " + Distillers;
+        }
+
+        private void VodkaStrength_Click(object sender, EventArgs e)
+        {
+            
+            VodkasStrength = VodkasStrength * 2;
+            VodkaRating = VodkaRating + 1;
+            VodkaStrengthLabel.Text = "Vodka Rating: " + VodkaRating;
+
         }
     }
 }

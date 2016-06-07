@@ -36,6 +36,9 @@
             this.DistillerTimer = new System.Windows.Forms.Timer(this.components);
             this.DistillerCounterLabel = new System.Windows.Forms.Label();
             this.DistillerPriceLabel = new System.Windows.Forms.Label();
+            this.VodkaStrength = new System.Windows.Forms.Button();
+            this.VodkaStrengthLabel = new System.Windows.Forms.Label();
+            this.VodkaStrengthPrice = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.VodkaPicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,7 +75,7 @@
             // 
             // ShopDistiller
             // 
-            this.ShopDistiller.Location = new System.Drawing.Point(761, 165);
+            this.ShopDistiller.Location = new System.Drawing.Point(845, 170);
             this.ShopDistiller.Name = "ShopDistiller";
             this.ShopDistiller.Size = new System.Drawing.Size(75, 23);
             this.ShopDistiller.TabIndex = 3;
@@ -88,7 +91,7 @@
             // DistillerCounterLabel
             // 
             this.DistillerCounterLabel.AutoSize = true;
-            this.DistillerCounterLabel.Location = new System.Drawing.Point(842, 170);
+            this.DistillerCounterLabel.Location = new System.Drawing.Point(926, 175);
             this.DistillerCounterLabel.Name = "DistillerCounterLabel";
             this.DistillerCounterLabel.Size = new System.Drawing.Size(57, 13);
             this.DistillerCounterLabel.TabIndex = 4;
@@ -97,23 +100,57 @@
             // DistillerPriceLabel
             // 
             this.DistillerPriceLabel.AutoSize = true;
-            this.DistillerPriceLabel.Location = new System.Drawing.Point(778, 197);
+            this.DistillerPriceLabel.Location = new System.Drawing.Point(862, 202);
             this.DistillerPriceLabel.Name = "DistillerPriceLabel";
             this.DistillerPriceLabel.Size = new System.Drawing.Size(49, 13);
             this.DistillerPriceLabel.TabIndex = 5;
             this.DistillerPriceLabel.Text = "Price: 50";
             // 
+            // VodkaStrength
+            // 
+            this.VodkaStrength.Location = new System.Drawing.Point(837, 228);
+            this.VodkaStrength.Name = "VodkaStrength";
+            this.VodkaStrength.Size = new System.Drawing.Size(83, 23);
+            this.VodkaStrength.TabIndex = 6;
+            this.VodkaStrength.Text = "BetterVodkas";
+            this.VodkaStrength.UseVisualStyleBackColor = true;
+            this.VodkaStrength.Click += new System.EventHandler(this.VodkaStrength_Click);
+            // 
+            // VodkaStrengthLabel
+            // 
+            this.VodkaStrengthLabel.AutoSize = true;
+            this.VodkaStrengthLabel.Location = new System.Drawing.Point(926, 233);
+            this.VodkaStrengthLabel.Name = "VodkaStrengthLabel";
+            this.VodkaStrengthLabel.Size = new System.Drawing.Size(84, 13);
+            this.VodkaStrengthLabel.TabIndex = 7;
+            this.VodkaStrengthLabel.Text = "Vodka Rating: 1";
+            // 
+            // VodkaStrengthPrice
+            // 
+            this.VodkaStrengthPrice.AutoSize = true;
+            this.VodkaStrengthPrice.Location = new System.Drawing.Point(862, 263);
+            this.VodkaStrengthPrice.Name = "VodkaStrengthPrice";
+            this.VodkaStrengthPrice.Size = new System.Drawing.Size(55, 13);
+            this.VodkaStrengthPrice.TabIndex = 8;
+            this.VodkaStrengthPrice.Text = "Price: 100";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::водка_Drinker.Properties.Resources.Shop_Window_for_Game;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.Controls.Add(this.VodkaStrengthPrice);
+            this.Controls.Add(this.VodkaStrengthLabel);
+            this.Controls.Add(this.VodkaStrength);
             this.Controls.Add(this.DistillerPriceLabel);
             this.Controls.Add(this.DistillerCounterLabel);
             this.Controls.Add(this.ShopDistiller);
             this.Controls.Add(this.VodkaButton);
             this.Controls.Add(this.VodkaCounter);
             this.Controls.Add(this.VodkaPicture);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Vodka Clicker";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -132,6 +169,9 @@
         private System.Windows.Forms.Timer DistillerTimer;
         private System.Windows.Forms.Label DistillerCounterLabel;
         private System.Windows.Forms.Label DistillerPriceLabel;
+        private System.Windows.Forms.Button VodkaStrength;
+        private System.Windows.Forms.Label VodkaStrengthLabel;
+        private System.Windows.Forms.Label VodkaStrengthPrice;
     }
 }
 
