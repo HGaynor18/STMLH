@@ -15,3 +15,6 @@ c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\во
 \\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Form1.resources
 \\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Properties.Resources.resources
 \\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csproj.GenerateResource.Cache
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe.config
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.exe
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.pdb

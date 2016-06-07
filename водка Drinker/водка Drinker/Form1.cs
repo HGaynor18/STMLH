@@ -42,6 +42,7 @@ namespace водка_Drinker
 
         }
 
+
         private void ShopDistiller_Click(object sender, EventArgs e)
         {
             DistillerTimer.Start();
