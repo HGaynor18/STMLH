@@ -87,5 +87,11 @@ namespace водка_Drinker
             }
 
         }
+
+        private void TutorialButton_Click(object sender, EventArgs e)
+        {
+            TutorialWindow t = new TutorialWindow();
+            t.Show();
+        }
     }
 }

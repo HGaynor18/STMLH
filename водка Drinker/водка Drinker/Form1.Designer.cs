@@ -39,6 +39,7 @@
             this.VodkaStrength = new System.Windows.Forms.Button();
             this.VodkaStrengthLabel = new System.Windows.Forms.Label();
             this.VodkaStrengthPrice = new System.Windows.Forms.Label();
+            this.TutorialButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.VodkaPicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,6 +135,16 @@
             this.VodkaStrengthPrice.TabIndex = 8;
             this.VodkaStrengthPrice.Text = "Price: 100";
             // 
+            // TutorialButton
+            // 
+            this.TutorialButton.Location = new System.Drawing.Point(12, 609);
+            this.TutorialButton.Name = "TutorialButton";
+            this.TutorialButton.Size = new System.Drawing.Size(146, 60);
+            this.TutorialButton.TabIndex = 9;
+            this.TutorialButton.Text = "Play the Tutorial";
+            this.TutorialButton.UseVisualStyleBackColor = true;
+            this.TutorialButton.Click += new System.EventHandler(this.TutorialButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,6 +152,7 @@
             this.BackgroundImage = global::водка_Drinker.Properties.Resources.Shop_Window_for_Game;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.Controls.Add(this.TutorialButton);
             this.Controls.Add(this.VodkaStrengthPrice);
             this.Controls.Add(this.VodkaStrengthLabel);
             this.Controls.Add(this.VodkaStrength);
@@ -172,6 +184,7 @@
         private System.Windows.Forms.Button VodkaStrength;
         private System.Windows.Forms.Label VodkaStrengthLabel;
         private System.Windows.Forms.Label VodkaStrengthPrice;
+        private System.Windows.Forms.Button TutorialButton;
     }
 }
 

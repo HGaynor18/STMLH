@@ -27,3 +27,10 @@ C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\
 C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Form1.resources
 C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Properties.Resources.resources
 C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csproj.GenerateResource.Cache
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\bin\Debug\водка Drinker.pdb
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csprojResolveAssemblyReference.cache
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Form1.resources
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Properties.Resources.resources
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.TutorialWindow.resources
+C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csproj.GenerateResource.Cache
