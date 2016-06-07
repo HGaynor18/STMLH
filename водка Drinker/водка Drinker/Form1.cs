@@ -36,7 +36,7 @@ namespace водка_Drinker
             VodkaCounter.Text = "Vodkas: " + Vodkas;
             if (Vodkas > 5000)
             {
-                MessageBox.Show("Hello Ma Freind, You Make Very Vodka, I Am Putin, You Good Vodka, You Spetsnaz Vodka, You Win");
+                MessageBox.Show("Hello Ma Freind, You Make Very Vodka, I Am Putin, You Good Vodka, You Spetsnaz Vodka, You Win!");
             }
         }
 
@@ -73,10 +73,18 @@ namespace водка_Drinker
 
         private void VodkaStrength_Click(object sender, EventArgs e)
         {
-            
-            VodkasStrength = VodkasStrength * 2;
-            VodkaRating = VodkaRating + 1;
-            VodkaStrengthLabel.Text = "Vodka Rating: " + VodkaRating;
+            if (Vodkas < VodkasStrengthPrice)
+            {
+                MessageBox.Show("Sorry Ma Fren, You Have Not Got Enpugh Vodkas.");
+
+            }
+            if (Vodkas > VodkasStrengthPrice)
+            {
+                VodkasStrength = VodkasStrength * 2;
+                VodkaRating = VodkaRating + 1;
+                VodkaStrengthLabel.Text = "Vodka Rating: " + VodkaRating;
+                Vodkas = Vodkas - VodkasStrengthPrice;
+            }
 
         }
     }
