@@ -18,3 +18,6 @@ c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\во
 C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe.config
 C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.exe
 C:\Users\loloughlin18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.pdb
+C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe.config
+C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.exe
+C:\Users\hgaynor18\Documents\GitHub\STMLH\водка Drinker\водка Drinker\obj\Debug\водка Drinker.pdb

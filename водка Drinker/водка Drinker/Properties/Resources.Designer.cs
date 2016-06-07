@@ -69,5 +69,15 @@ namespace водка_Drinker.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Shop_Window_for_Game {
+            get {
+                object obj = ResourceManager.GetObject("Shop Window for Game", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
