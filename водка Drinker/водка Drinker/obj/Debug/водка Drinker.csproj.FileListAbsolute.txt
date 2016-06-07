@@ -1,0 +1,17 @@
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe.config
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Form1.resources
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Properties.Resources.resources
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csproj.GenerateResource.Cache
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\bin\Debug\водка Drinker.pdb
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\obj\Debug\водка Drinker.exe
+c:\users\hgaynor18\documents\visual studio 2015\Projects\водка Drinker\водка Drinker\obj\Debug\водка Drinker.pdb
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe.config
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка Drinker.exe
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка Drinker.pdb
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\bin\Debug\водка Drinker.exe
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\bin\Debug\водка Drinker.pdb
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csprojResolveAssemblyReference.cache
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Form1.resources
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка_Drinker.Properties.Resources.resources
+\\svTY01\hgaynor18$\водка Drinker\водка Drinker\obj\Debug\водка Drinker.csproj.GenerateResource.Cache
